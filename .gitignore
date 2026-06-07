@@ -24,3 +24,4 @@ data/sessions/
 # OS files
 .DS_Store
 Thumbs.db
+.env
