@@ -17,11 +17,19 @@ import argparse
 from datetime import datetime
 from pathlib import Path
 
+core_path = Path(__file__).resolve().parent
+project_path = core_path.parent
+if str(project_path) not in sys.path:
+   sys.path.insert(0, str(project_path))
+
+
 from rich.console import Console
 from rich.panel import Panel
 from rich.text import Text
 from loguru import logger
 import socketio
+
+
 
 import web
 
