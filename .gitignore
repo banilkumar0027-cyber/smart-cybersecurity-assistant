@@ -1,0 +1,26 @@
+# Virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.cpython-*.pyc
+
+# Environment secrets
+.env
+
+# Logs and database
+*.log
+*.db
+data/sessions/
+
+# Audio temp files
+*.mp3
+*.wav
+
+# OS files
+.DS_Store
+Thumbs.db
